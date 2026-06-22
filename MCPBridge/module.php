@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types=1);
-
 /**
  * MCP Bridge — exposes IP-Symcon kernel log messages as a queryable, filtered
  * ring buffer so an external agent (via the ipsymcon MCP / JSON-RPC) can read

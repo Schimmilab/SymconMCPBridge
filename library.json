@@ -1,11 +1,13 @@
 {
     "id": "{AFCF0AEE-A2A3-4E5B-A0BE-A9183E764FC7}",
-    "author": "Jürgen Schilling (Schimmi)",
+    "author": "Jürgen Schilling (Schimmilab)",
     "name": "Symcon MCP Bridge",
     "url": "https://github.com/Schimmilab/SymconMCPBridge",
     "version": "0.1",
-    "build": 1,
+    "build": 2,
+    "date": 0,
+    "license": "MIT",
     "compatibility": {
-        "version": "6.0"
+        "version": "8.1"
     }
 }
