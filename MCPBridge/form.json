@@ -1,0 +1,26 @@
+{
+    "elements": [
+        {
+            "type": "NumberSpinner",
+            "name": "MaxEntries",
+            "caption": "Max. Einträge im Ring-Buffer"
+        },
+        {
+            "type": "ValidationTextBox",
+            "name": "CaptureLevels",
+            "caption": "Erfasste KL-Level (Komma): 4=WARNING 5=ERROR 6=DEBUG 7=CUSTOM"
+        }
+    ],
+    "actions": [
+        {
+            "type": "Button",
+            "caption": "Log leeren",
+            "onClick": "MCPB_ClearLog($id);"
+        },
+        {
+            "type": "Label",
+            "caption": "Abruf per JSON-RPC: MCPB_GetLog(InstanzID, Anzahl, Level, Filter) · Diagnose: MCPB_GetDebug(InstanzID)"
+        }
+    ],
+    "status": []
+}

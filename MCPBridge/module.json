@@ -1,0 +1,12 @@
+{
+    "id": "{41204E40-64A8-4B1C-A79A-4D0CD27D700F}",
+    "name": "MCP Bridge",
+    "type": 3,
+    "vendor": "Schimmilab",
+    "aliases": ["MCP Bridge", "MCP Log Bridge"],
+    "url": "https://github.com/Schimmilab/SymconMCPBridge",
+    "parentRequirements": [],
+    "childRequirements": [],
+    "implemented": [],
+    "prefix": "MCPB"
+}
